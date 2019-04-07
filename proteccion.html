@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta description="Seguridad Informatica"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>OVI Seguridad Informatico</title>
+</head>
+<body>
+	<header>
+		<h1>SEGURIDAD INFORMATICA</h1>
+		<figure>
+		<table>
+		<td><img src="img/logo.jpg" alt="logo"></td>
+		<td><img src="img/logo1.jpg" alt="logo1"></td>
+		</table>
+		</figure>
+	</header>
+	
+	<nav>
+			<ul class="menu">
+					<li><a href="index.html" class="menu">Inicio</a></li>
+					<li><a href="#" class="menu">Lecturas</a>
+						<ul>
+							<li><a href="lecturas.html" id="lectura1" class="menu">Etapas del desarrollo de software</a></li>
+							<li><a href="modelos.html" id="lectura2" class="menu">Modelos de desarrollo </a></li>
+							<li><a href="scrum.html" id="lectura1" class="menu">Scrum como metodologia</a></li>
+							<li><a href="libre.html" id="lectura2" class="menu">Software libre y de código abierto para el
+									desarrollo</a></li>
+							<li><a href="calidad.html" id="lectura2" class="menu">Calidad de software</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="menu">Multimedia</a>
+						<ul>
+								<li><a href="introduccioningenieriasoftware.html" id="Introduccion" class="menu">Introduccion a la Ingenieria de
+										Software</a></li>
+							<li><a href="ingenieriasoftware.html" id="ingenieriasoftware" class="menu">Inigeniería de Software</a></li>
+							
+						</ul>
+		
+					<li><a href="actividades.html" class="menu">Actividades</a></li>
+					<li><a href="autores.html" class="menu">Autores</a>
+				</ul>
+	</nav>
+<section id="conte">
+		
+		<div class="proteccion">
+
+		<article class="c1">
+			
+        <header>
+         <h2>PROTECCION DE LA INFORMACION</h2>		 
+        </header>
+        <figure><img src="img/proteccion/imagen1.jpg" width="300" height="300"></figure>
+           <p class="texto">
+Todos los usuarios de informática, tanto si son particulares como si pertenecen al sector
+público o privado, poseen unas expectativas informales respecto a los ordenadores: esperan
+que al apretar el botón de encendido el ordenador conserve todos los datos tal y como los dejaron el día anterior; cuando envían un mensaje de correo electrónico, esperan que llegue
+a su legítimo destinatario en un tiempo razonable sin perder los datos adjuntados; cuando
+acceden a la base de datos de nóminas, esperan que los sueldos y los nombres de los empleados
+sean los auténticos y no hayan cambiado. En definitiva, los usuarios albergan gran cantidad
+de expectativas que, por desgracia, no siempre se verán cumplidas: un fallo de hardware
+podría hacer perder los datos del disco; el mensaje de correo junto con su archivo adjunto
+podría ser interceptado por un intruso; un empleado desleal con excesivos privilegios de
+acceso podría manipular la aplicación de nóminas.
+Si no se toma ninguna medida de protección, la mayoría de expectativas respecto a la
+informática se verán defraudadas, ya que la información está expuesta a innumerables amenazas,
+cada una con una probabilidad de ocurrencia y un riesgo asociado variables: hackers
+externos, virus, gusanos y troyanos, empleados descontentos o sobornados, fallos de hardware
+o de software, interrupciones en el suministro eléctrico, fuegos, incendios e inundaciones, la
+lista sería interminable. La seguridad de la información es una disciplina que se ocupa de
+gestionar el riesgo dentro de los sistemas informáticos. Dicho de otro modo, mediante la
+aplicación de sus principios, se implantarán en los sistemas informáticos las medidas de
+seguridad capaces de contrarrestar las amenazas a que se encuentran expuestos los activos de
+la organización: la información y los elementos hardware y software que la soportan. No se
+trata de implantar sin ton ni son medidas de seguridad, tales como cortafuegos o cifrado de
+datos porque tal o cual tecnología está de moda o porque se cree que así se va a estar más
+seguro. Se trata más bien de evaluar los riesgos reales a los que la información está expuesta
+y mitigarlos mediante la aplicación de las medidas necesarias y en el grado adecuado, con el
+fin de satisfacer las expectativas de seguridad generadas.
+          </p>
+       
+         </article>
+        
+         <article class="c2">       
+         <header>
+         <h2>VULNERABILIDADES COMUNES</h2>		 
+         </header>
+         <iframe width="500" height="300" src="https://www.youtube.com/embed/EQmkBHTcsbw" frameborder="0" allowfullscreen></iframe>       
+  <h2>Vulnerabilidad de desbordamiento de buffer.</h2>
+
+<p class="texto">Si un programa no controla la cantidad de datos que se copian en buffer, puede llegar un momento en que se sobrepase la capacidad del buffer y los bytes que sobran se almacenan en zonas de memoria adyacentes.
+En esta situación se puede aprovechar para ejecutar código que nos de privilegios de administrador.</p>
+
+<h2>Vulnerabilidad de condición de carrera (race condition).</h2>
+
+<p class="texto">Si varios procesos acceden al mismo tiempo a un recurso compartido puede producirse este tipo de vulnerabilidad. Es el caso típico de una variable, que cambia su estado y puede obtener de esta forma un valor no esperado.</p>
+
+<h2>Vulnerabilidad de Cross Site Scripting (XSS).</h2>
+
+<p class="texto">
+Es una vulnerabilidad de las aplicaciones web, que permite inyectar código VBSript o JavaScript en páginas web vistas por el usuario. El phishing es una aplicación de esta vulnerabilidad. En el phishing la víctima cree que está accediendo a una URL (la ve en la barra de direcciones), pero en realidad está accediendo a otro sitio diferente. Si el usuario introduce sus credenciales en este sitio se las está enviando al atacante.</p>
+
+
+<h2>Vulnerabilidad de denegación del servicio.</h2>
+<p class="texto">
+La denegación de servicio hace que un servicio o recurso no esté disponible para los usuarios. Suele provocar la pérdida de la conectividad de la red por el consumo del ancho de banda de la red de la víctima o sobrecarga de los recursos informáticos del sistema de la víctima.</p>
+
+<h2>Vulnerabilidad de ventanas engañosas (Window Spoofing).</h2>
+
+<p class="texto">
+Las ventanas engañosas son las que dicen que eres el ganador de tal o cual cosa, lo cual es mentira y lo único que quieren es que el usuario de información. Hay otro tipo de ventanas que si las sigues obtienen datos del ordenador para luego realizar un ataque. </p>
+
+  
+          </article>
+        
+         </div>
+  
+	<footer>
+		Copyringht.2017.Estudiantes de Diseño de Sitios WEB de la UNAD.
+	</footer>
+
+		</section>
+
+</body>
+</html>

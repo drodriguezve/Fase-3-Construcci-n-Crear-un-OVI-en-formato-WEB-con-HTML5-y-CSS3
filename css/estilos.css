@@ -1,0 +1,384 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+	
+	@font-face 
+	{
+		
+	font-family: 'angsanabold';
+	src: url("../font/AngsanaNewBold.ttf");
+	src: url("../font/AngsanaNewBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'angsanaregular';
+	src: url("../font/AngsanaNewRegular.ttf");
+	src: url("../font/AngsanaNewBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'franklinitalic';
+	src: url("../font/FranklinGothicBookItalic.ttf");
+	src: url("../font/FranklinGothicBookItalic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'franklinheavyitalic';
+	src: url("../font/FranklinGothicHeavyItalic.ttf");
+	src: url("../font/FranklinGothicHeavyItalic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'franklinheavy';
+	src: url("../font/FranklinGothicHeavyRegular.ttf");
+	src: url("../font/FranklinGothicHeavyRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	}
+	body{
+	background: #b7bbbd;
+	color: #000000;
+	font-family: "angsanaregular", Helvetica,Verdana;
+	font-size: 13px;
+	}
+	
+	h1
+	
+	{
+	color: #000000;
+	margin: 0.20em auto;
+	text-align: center;
+	text-shadow:5px 5px 10px rgba(0,0,0,0.5);
+	}
+	
+	h2
+	{
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	text-shadow:5px 5px 10px rgba(0,0,0,0.5);
+	}
+	h4
+	{
+	color: #000000;
+	margin: 0.20em auto;
+	text-align: center;
+	}
+	header,footer
+	{
+	background: #FFFFFF; 
+	border-radius: 0.5em;
+	margin: 0.20em auto;
+	max-width: 1240px;
+	padding: 0.20em;
+	text-align: center;
+	clear: both;
+	}
+	nav
+	{
+	width: 1240px;
+	height: 40px;
+	background: #FFFFFF; 
+	border-radius: 0.5em;
+	margin:  auto;
+	max-width: 1240px;
+	padding: auto;
+	text-align: center;
+	}
+	article
+	{
+	background: #FFFFFF; 
+	color: #000000;
+	border-radius: 0.5em;
+	margin: 0.20em auto;
+	max-width: 1240px;
+	padding: 0.20em;
+	text-align: center;
+	}
+	section#conte{
+		margin: 0.5em auto;
+		max-width: 1240px;
+		/*border-radius: 0.5em;*/
+		padding: 0;
+		text-align: center;
+	}
+	
+	section#princi, aside{
+		background: #FFFFFF; 
+		/*border-radius: 0.5em;*/
+		display: inline-block;
+		margin: 0.2em auto;
+		max-width: 1240px;
+		min-height: 700px;
+		vertical-align: top;
+		width: 55%;
+	}
+	aside{
+		width: 35%;
+		margin-left: 20px;
+	}
+	figure{
+		text-align: center;
+	}
+	ul
+	{
+		margin: auto;
+		text-align: center;
+	}
+	
+	li
+	{
+		background: #b3b3b3; 
+		border-radius: 0.5em;
+		float: left;
+		list-style-type: none;
+		padding: 10px;
+		text-align: center;
+		box-shadow: 0 0 9px white inset;
+	}
+	
+	.ancho_menu_home{width: 1240;}
+	.ancho_menu_paginas{width: 1240;}
+	.menu:link{color: blue; text-decoration: none;}
+	.menu:visited{color: black; text-decoration: none;}
+	.menu:hover{color: black; text-decoration: none;}
+	.menu:active{color: black; text-decoration: none;}
+	
+	.menu { padding:0; margin:0; }
+	
+	/*Elementos items principales de menú que se muestran siempre*/
+	.menu li { list-style: none; float: left; margin:3px;}
+	   
+	.menu li a {
+	   display: block; /* Usamos display block para poder aplicar propiedades de caja a links */
+	   /*padding: 0.5em 0.5em;*/ 
+	   /*background-color:; */
+	   /*color: #FF6600;*/
+	   text-decoration: none; 
+	}
+	
+	/*Listas de subitems de menú*/   
+	.menu li ul {
+	   display: none; 
+	}
+	
+	.menu li:hover ul {
+	   font-size: 1em;
+	   display: block; /*Al situar el cursor sobre el item la lista de subitems pasa de display none a display block y se muestra*/
+	   position: absolute; /*Al desplegarse el submenú no ocupa espacio y no desplaza a otros elementos gracias a que establecemos position absolute*/
+	   margin: 0; padding: 0; /*Anulamos margin y padding que por defecto introducen navegadores*/
+	   }
+	
+	.menu li:hover li { float: none; } 
+	   
+	.menu li:hover li a { background-color: #003f5e; color: #FFFFFF;  }
+	
+	.menu li:hover li a:hover { color: #FFFFFF; color: #FF6600; }
+	
+	
+	/* Manipulacion de Cajas */
+	
+	
+	.area1{
+	
+	 display: block;
+	 float: left;
+	 width: 65em;
+	
+	}
+	
+	.area2{
+	 
+	 text-align: justify;
+	 width:30em;
+	 float: left;
+	
+	 
+	
+	}
+	
+	.texto{
+	 text-align: justify;
+	 padding: 1em;
+	}
+	
+	.l1{
+	float: left;
+	width: 30em;
+	display: block;
+	}
+	
+	.l3{
+	float: left;
+	width: 30em;
+	display: block;
+	margin-left: 1em;
+	}
+	
+	/*Link Proteccion de Datos */
+	
+	.proteccion{
+	
+	 display: block;
+	 float: left;
+	 width: 95em;
+	
+	}
+	
+	
+	.c1{
+	
+	float: left;
+	width: 40em;
+	display: block;
+	
+	}
+	
+	.c2{
+	
+	float: left;
+	width: 50em;
+	display: block;
+	margin-left: 1em;
+	 
+	}
+	
+	.textop{
+	 
+	 width: 40em;
+	 text-align: justify;
+	 padding: 1em;
+	 float: left;
+	}
+	
+	.img1{
+	
+	float: left; 
+	
+	}
+	
+	/*Estilos Pagina Atauqes */
+	
+	
+	.a1{
+	
+	float: left;
+	width: 55em;
+	display: block;
+	
+	
+	}
+	
+	.a2{
+	
+	float: left;
+	width: 35em;
+	display: block;
+	margin-left: 1em;
+	
+	 
+	}
+	
+	.textoa{
+	float: left;
+	width: 20em;
+	text-align: justify;
+	padding: 1em;
+	
+	}
+	
+	.textob{
+	
+	width: 50em;
+	clear: both;
+	text-align: justify;
+	padding: 2em;
+	
+	}
+	
+	.textoc{
+	
+	width: 25em;
+	clear: both;
+	text-align: justify;
+	padding: 5em;
+	
+	}
+	
+	
+	
+	.ataques{
+	 
+	 width: 100%;
+	
+	
+	}
+	
+	.img1{
+	width: 20;
+	
+	
+	}
+	
+	.imgs{
+	 
+	width: 2em;
+	height: 3em;
+	
+	}
+	/*Multimedia*/
+	
+	
+	princi_multimedia
+	.parrafos{
+	
+	text-align: justify;
+	
+	
+	}
+	
+	
+	#main-container{
+		margin: 20px auto;
+		width: 80%;
+	}
+	
+	table{
+		background-color: white;
+		text-align: left;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	
+	th, td{
+		padding: 4px;
+	}
+	
+	
+	tr:nth-child(even){
+		background-color: #ddd;
+	}
+	
+	tr:hover td{
+		background-color: #000000;
+		color: white;
+	}
+	video
+	{
+		width: 80%;
+	}
+	#conte_multimedia{
+		margin: 0.5em auto;
+		max-width: 1240px;
+		/*border-radius: 0.5em;*/
+		padding: 0;
+		text-align: center;
+	}
+	
+	 #princi_multimedia{
+		background: #FFFFFF; 
+		/*border-radius: 0.5em;*/
+		display: inline-block;
+		margin: 0.2em auto;
+		max-width: 1240px;
+		min-height: 700px;
+		vertical-align: top;
+		width: 80%;
+	}
