@@ -254,8 +254,6 @@
 	
 	}
 	
-	/*Estilos Pagina Atauqes */
-	
 	
 	.a1{
 	
@@ -367,14 +365,12 @@
 	#conte_multimedia{
 		margin: 0.5em auto;
 		max-width: 1240px;
-		/*border-radius: 0.5em;*/
 		padding: 0;
 		text-align: center;
 	}
 	
 	 #princi_multimedia{
 		background: #FFFFFF; 
-		/*border-radius: 0.5em;*/
 		display: inline-block;
 		margin: 0.2em auto;
 		max-width: 1240px;
@@ -382,3 +378,77 @@
 		vertical-align: top;
 		width: 80%;
 	}
+	/* CSS  responsive iframe */
+/* ========================= */
+
+
+#IframePdf {
+	max-width: 512px;
+	max-height: 100%; 
+	overflow: hidden;
+  }
+  
+
+  .Iframe1 {
+	position: relative;
+	height: 0;    
+	
+		
+  }
+   
+  .Iframe1 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	margin: 0;
+	padding: 0;
+	border: none;
+  }
+  
+  
+  .Iframe2 {
+	padding-bottom: 107%;
+  }
+  
+  /* general styles */
+  /* ============== */
+  .border {
+	border: 5px inset #4f4f4f;
+  }
+  .box-shadow { 
+	-webkit-box-shadow: 4px 4px 14px #4f4f4f;
+	-moz-box-shadow: 4px 4px 14px #4f4f4f;
+	box-shadow: 4px 4px 14px #4f4f4f;
+  }
+  .padding {
+	padding: 40px;
+  }
+  .margin {
+	margin: 30px;
+  }
+  .center-block-horiz {
+	margin-left: auto !important;
+	margin-right: auto !important;
+  }
+  .justify{
+	
+		text-align: justify;
+		padding: 20px
+	
+  }
+  label {
+    font: 1rem 
+}
+
+input {
+    margin: .4rem;
+}
+#quiz
+{  
+	padding: 5%;
+	text-align: left
+
+}
